@@ -3,3 +3,7 @@ README
 Program = Number Password Creator
 Author = ultrazoid_
 Purpose = The purpose of this program is aimed at people with a password made out of a string and then 4 numbers after it
+
+License = This is a free open source program. Although if changes are made by yourself please add the changes to the source here so others can use the changes
+
+Language = Python 2.7.6
