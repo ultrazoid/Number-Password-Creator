@@ -34,14 +34,21 @@ while ss != 'end':
 	#if ss = 'clear'
 	#	fo.delete(filename)
 	#	fo
-    bb = raw_input('What is this Password number for:')
-    aa = str(random.randrange(1111,9999))
-    ee = str(aa)
+    tt = raw_input('What is this Password number for:')
+    aa = random.randrange(0,10)
+    bb = random.randrange(0,10)
+    cc = random.randrange(0,10)
+    dd = random.randrange(0,10)
+    aaa = str(random.randrange(0,aa+1))
+    bbb = str(random.randrange(0,bb+1))
+    ccc = str(random.randrange(0,cc+1))
+    ddd = str(random.randrange(0,dd+1))
+    ee = aaa+bbb+ccc+ddd
     """
     ^ defines the values of aa,bb,cc,dd as single digit natural numbers
     """
     print aa #prints the value of variables aa
-    fo.write(bb)
+    fo.write(tt)
     fo.write(':   ')
     fo.write(ee)
     fo.write('\n')
