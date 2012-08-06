@@ -6,6 +6,9 @@ Created on 23/02/2012
 
 import random 
 import time
+"""
+^ imports time and random features
+"""
 
 print "Welcome to:\nultrazoid_'s\nPassword number generator" #prints a welcome message to the program
 filename2="pass.settings"
@@ -22,10 +25,6 @@ else:
 sf.close()
 filename=ff
 fo= open (filename, "a") 
-
-"""
-^ imports time and random features
-"""
 
 ss = raw_input('press any key to continue(end to end):') #asks user to press any key or enter 'end' to stop the program
 
