@@ -30,9 +30,9 @@ ss = raw_input('press any key to continue(end to end):') #asks user to press any
 
 
 while ss != 'end':
-    if ss = 'clear'
-    fo.delete(filename)
-    fo = open(filename, 'w')
+    if ss == 'clear'
+    	fo.delete(filename)
+    	fo = open(filename, 'w')
     tt = raw_input('What is this Password number for:')
     aa = random.randrange(0,10)
     bb = random.randrange(0,10)
