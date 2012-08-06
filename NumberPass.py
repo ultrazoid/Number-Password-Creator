@@ -15,7 +15,7 @@ if sef == ' ':
 	sf.close()
 	print "pass.settings not found creating..."
 	sf = open(filename2, "w")
-	ff=raw_input('Please enter a filename including a file extension to store password numbers in:')
+	ff=raw_input('Please enter a filename including a file extension to store password numbers in:(max of 8 characters)')
 	sf.write(ff)
 else:
 	ff=sef
