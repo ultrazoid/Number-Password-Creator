@@ -12,7 +12,7 @@ import time
 
 print "Welcome to:\nultrazoid_'s\nPassword number generator" #prints a welcome message to the program
 filename2="pass.settings"
-sf=open(filename2, "w")
+sf=open(filename2, "r+")
 sef = sf.read(8)
 if sef == ' ':
 	sf.close()
